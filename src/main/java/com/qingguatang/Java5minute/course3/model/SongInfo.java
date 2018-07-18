@@ -3,7 +3,6 @@ package com.qingguatang.Java5minute.course3.model;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 /**
  * 功能描述: SongInfo实体类
