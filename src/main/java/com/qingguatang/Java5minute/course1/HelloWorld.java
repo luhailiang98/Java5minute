@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * 功能描述: HelloWorld
  *
  * @param:
- * @return: meassage
+ * @return:
  * @auther: luhailiang
  * @date: 2018/7/17 22:32
  */

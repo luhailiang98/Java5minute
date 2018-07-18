@@ -5,10 +5,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
+ *
  * 功能描述: SongInfo实体类
  *
+ * @param:
+ * @return:
  * @auther: luhailiang
- * @date: 2018/7/17 22:58
+ * @date: 2018/7/18 22:05
  */
 
 @Getter
