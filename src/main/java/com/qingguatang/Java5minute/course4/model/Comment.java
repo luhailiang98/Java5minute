@@ -1,11 +1,13 @@
 package com.qingguatang.Java5minute.course4.model;
 
+import java.util.Date;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- *
  * 功能描述: Comment实体类
  *
  * @param:
@@ -14,9 +16,11 @@ import lombok.Setter;
  * @date: 2018/7/18 22:05
  */
 
-@Getter
-@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
+@Setter
+@Getter
 public class Comment {
 
   //评论人头像
@@ -26,7 +30,7 @@ public class Comment {
   //评论内容
   private String content;
   //评论时间
-  private String commentTime;
+  private Date commentTime;
   //点赞数
   private int likeNum;
 
