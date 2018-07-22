@@ -46,7 +46,7 @@ public class CommentPostControl {
         return 1;
       }
     });
-    return "redirect:/comments";//重定向
+    return "redirect:/songinfo?songId="+songId;//重定向
   }
 
   public List<Comment> getComments(String songId) {

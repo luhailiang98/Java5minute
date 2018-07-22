@@ -1,9 +1,13 @@
 package com.qingguatang.Java5minute.course3;
 
 import com.qingguatang.Java5minute.course3.model.SongInfo;
+import com.qingguatang.Java5minute.course4.model.Comment;
+import com.qingguatang.Java5minute.course5.CommentPostControl;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import javax.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +17,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class SongInfoControl {
 
+  @Autowired
+  private CommentPostControl commentPostControl;
+
   private static Map<String, SongInfo> songInfoMap = new HashMap<>();
 
   @RequestMapping(value = "/songinfo")
@@ -21,8 +28,9 @@ public class SongInfoControl {
       songId = "35847388";
     }
     SongInfo songInfo = songInfoMap.get(songId);
-
     modelMap.addAttribute("song", songInfo);
+    List<Comment> comments =commentPostControl.getComments(songId);
+    modelMap.addAttribute("comments",comments);
     return "index";
   }
 
