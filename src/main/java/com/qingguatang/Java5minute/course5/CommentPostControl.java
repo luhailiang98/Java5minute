@@ -8,6 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -30,6 +31,8 @@ public class CommentPostControl {
 
     Date commentTime = new Date();
     comment.setCommentTime(commentTime);
+    //UUID xxx-xxx-xxx-xxx 36位
+    comment.setId(UUID.randomUUID().toString());
     comments.computeIfAbsent(songId, k -> new ArrayList<>()).add(comment);
 //    List<Comment> res;
 //    if (comments.containsKey(songId)){

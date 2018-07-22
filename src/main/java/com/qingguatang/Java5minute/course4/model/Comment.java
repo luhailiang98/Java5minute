@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * 功能描述: Comment实体类
@@ -23,6 +24,7 @@ import lombok.Setter;
 @Getter
 public class Comment {
 
+  private String id;
   //评论人头像
   private String icon;
   //评论人昵称
