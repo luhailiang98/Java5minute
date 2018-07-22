@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- *
  * 功能描述: SongInfo实体类
  *
  * @param:
@@ -19,6 +18,7 @@ import lombok.Setter;
 @Builder
 public class SongInfo {
 
+  private String id;
   //歌曲名称
   private String name;
   //歌手名称
