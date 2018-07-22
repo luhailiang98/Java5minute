@@ -11,14 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * 功能描述: 专业的评论功能
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/18 22:05
- */
+
 @Controller
 public class CommentControl {
 

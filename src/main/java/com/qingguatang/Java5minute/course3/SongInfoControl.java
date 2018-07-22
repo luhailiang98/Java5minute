@@ -9,14 +9,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * 功能描述: 变出你的内容来
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/17 23:12
- */
+
 @Controller
 public class SongInfoControl {
 

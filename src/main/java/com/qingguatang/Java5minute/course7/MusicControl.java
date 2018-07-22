@@ -7,14 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * 功能描述: play一下
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/22 17:17
- */
+
 @Controller
 public class MusicControl {
 

@@ -13,14 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * 功能描述: 动态评论提交
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/20 21:57
- */
+
 @Controller
 public class CommentPostControl {
 

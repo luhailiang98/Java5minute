@@ -8,14 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-/**
- * 功能描述: Comment实体类
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/18 22:05
- */
+
 
 @AllArgsConstructor
 @NoArgsConstructor

@@ -4,14 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * 功能描述:if的花式技巧
- *
- * @param:id
- * @return:html
- * @auther: luhailiang
- * @date: 2018/7/17 22:36
- */
+
 @Controller
 public class SongControl {
 

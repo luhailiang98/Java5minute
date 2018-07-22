@@ -9,14 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * 功能描述: 点赞一下
- *
- * @param:
- * @return:
- * @auther: luhailiang
- * @date: 2018/7/22 16:31
- */
+
 @Controller
 public class CommentLikeControl {
 
